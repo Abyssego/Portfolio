@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Life Savers:wght@400;700&display=swap');
+*{
+  font-family: Life Savers;
+}
+
+body {
+  background: #222;
+}
+
+h1
+{
+  color: #a57950;
+  font-size: 57px;
+  text-align: center;
+  padding-right: 250px;
+}
+input
+{
+	margin-bottom: 20px;
+}
+
+
+#button2
+{
+	font-size: 20px;
+	cursor: pointer;
+  background-color: #cea47d;
+  color: #473422;
+  border-radius: 12px;
+  border-color: #473422;
+}
+
+.part1 {
+  margin-left: 30%;
+}
+
+.part11 {
+  margin-top: 7%;
+  margin-left: 10%;
+}
+
+#normal {
+  width: 350px;
+  height: 30px;
+  background-color: #cea47d;
+  border-radius: 5px;
+  border-color: #473422;
+}
+#normal::placeholder {
+  color: #473422;
+  font-size: 17px;
+}
+
+#message {
+  width: 600px;
+  height: 170px;  
+  background-color: #cea47d;
+  border-radius: 5px;
+  border-color: #473422;
+}
+#message::placeholder {
+  color: #473422;
+  font-size: 17px;
+}
+
+
+/* Début Bordure */
+
+#bordure {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-right: 10%;
+  margin-left: 10%;
+
+  padding-bottom: 10%;
+
+  --border-width: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  background: #2b2b2b;
+  border-radius: var(--border-width);
+  flex-wrap: wrap;    /* Permet d'aller à la ligne quanbd plus de place, très IMPORTANT pour du responsive !! */
+}
+#bordure::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f25f61, #f25fd0, #a65ff2, #5f86f2);
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Fin Bordure */
+
+
+
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

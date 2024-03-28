@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Life Savers:wght@400;700&display=swap');
+*{
+  font-family: Life Savers;
+}
+
+/*Début bordure*/
+
+.bordure {
+  display: flex;
+  --border-width: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: white;
+  background: #2b2b2b;
+  border-radius: var(--border-width);
+
+
+}
+.bordure::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f25f61, #f25fd0, #a65ff2, #5f86f2);
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Fin bordure */
+
+body {
+	margin-top: 7%;
+  margin-bottom: 7%;
+	margin-right: 10%;
+	margin-left: 10%;
+  background: #222;
+}
+
+.corp {
+  display: table-column;
+}
+
+.titre
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #a57950;
+  user-select: none;
+  cursor: text;
+}
+
+
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+/*Début Card */
+#allDiv {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 200;
+}
+
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.row {
+  margin: auto 0;
+}
+
+.card {
+  padding: 2rem;
+  width: 45rem;
+}
+.card .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.card .menu-content::before, .card .menu-content::after {
+  content: "";
+  display: table;
+}
+.card .menu-content::after {
+  clear: both;
+}
+.card .menu-content li {
+  display: inline-block;
+}
+.card .menu-content a {
+  color: #fff;
+}
+.card .wrapper {
+  background-color: #fff;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.card .wrapper:hover .data {
+  transform: translateY(0);
+}
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(80px + 1em));
+  transition: transform 0.3s;
+}
+.card .data .content {
+  padding: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+.card .type {
+  font-size: 14px;
+}
+.card .title {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  font-weight: 300;
+}
+.card .text {
+  font-size: 24px;
+  height: 40px;
+  margin: 0;
+}
+.card input[type=checkbox] {
+  display: none;
+}
+.card input[type=checkbox]:checked + .menu-content {
+  transform: translateY(-60px);
+}
+
+.card .boutton {
+  border-radius: 10px;
+  background-color: #4F3A52;
+  border: 0px;
+  font-size: 20px;
+  opacity: 0.60;
+  color: #a8caba;
+}
+
+
+
+/*.example-2 .wrapper {
+  background: url(html.jpg) 50% 1%/cover no-repeat;
+}*/
+
+
+.example-2 .content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.example-2 .title a {
+  color: white;
+}
+
+/* Début Affichage photo*/
+#photo3 .wrapper {
+  background: url(../image/photo.jpg) 50% 1%/cover no-repeat;
+}
+
+#photo4.wrapper {
+  background: url(../image/photo.jpg) 50% 1%/cover no-repeat;
+}
+
+#photo1 .wrapper {
+  background: url(../image/photo.jpg) 50% 1%/cover no-repeat;
+}
+
+#photo5 .wrapper {
+  background: url(../image/photo.jpg) 50% 1%/cover no-repeat;
+}
+
+#photo6 .wrapper {
+  background: url(../image/photo.jpg) 50% 1%/cover no-repeat;
+}
+
+#photo7 .wrapper {
+  background: url(dessin/C.png) 50% 1%/cover no-repeat;
+}
+
+#photo8 .wrapper {
+  background: url(dessin/Figma.png) 50% 1%/cover no-repeat;
+}
+
+#photo9 .wrapper {
+  background: url(dessin/vs.png) 50% 1%/cover no-repeat;
+}
+
+#photo10 .wrapper {
+  background: url(dessin/pixlr.png) 50% 1%/cover no-repeat;
+}
+
+#photo444 .wrapper {
+  background: url(dessin/discord.png) 50% 1%/cover no-repeat;
+}
+
+#photo555 .wrapper {
+  background: url(dessin/google.png) 50% 1%/cover no-repeat;
+}
+
+#photo666 .wrapper {
+  background: url(dessin/opera.png) 50% 1%/cover no-repeat;
+}
+
+#photo2 .wrapper {
+  background: url(dessine/Word.png) 50% 1%/cover no-repeat;
+}
+
+#photo12 .wrapper {
+  background: url(dessin/power.png) 50% 1%/cover no-repeat;
+}
+
+#photo11 .wrapper {
+  background: url(dessin/python.png) 50% 1%/cover no-repeat;
+}
+
+/* Fin Affichage photo*/

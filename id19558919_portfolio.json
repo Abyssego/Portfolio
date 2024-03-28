@@ -1,0 +1,96 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"id19558919_portfolio"},
+{"type":"table","name":"description","database":"id19558919_portfolio","data":
+[
+{"idDescription":"1","dateDebDescription":"06\/09\/2022","dateFinDescription":"20\/09\/2022","descDescription":"Portfolio qui a commencé à être créé en classe principalement le html et le css, et finie de mon temps personnelle, notamment la création de la base de donnée et sa mise en place puis, le php pour utilisé la base de donnée, pour rendre site dynamique. Reste encore quelques détails côtés front-end à finir comme l'affichage d'image.","butDescription":"Créer un portfolio pour présenter ses projets, et à présenter en fin de seconde année. ","skillDescription":null,"lienGitDescription":null,"idProjet":"1","idEquipe":"1"},
+{"idDescription":"2","dateDebDescription":"01\/10\/2022","dateFinDescription":"18\/12\/2022","descDescription":"Créer un site dans le but de simuler une entreprise qui vend des formations, pendant le projet une maquette a été faites pour avoir une idée du résultat et des couleurs, et donc ensuite le html et le css fait pour avoir une base, pour ensuite remplacer tout le contenu du html dans une base de donnée pour rendre tout le site interactif.","butDescription":"Créer un site concret pour mettre en pratique php, pour la première fois.","skillDescription":null,"lienGitDescription":null,"idProjet":"2","idEquipe":"2"},
+{"idDescription":"3","dateDebDescription":"08\/11\/2022","dateFinDescription":"15\/11\/2022","descDescription":"Créer un programme pour chercher une adresse IP d'un fichier DNS à l'aide du nom de domaine, tous sa pour simuler un DNS-poisoning.","butDescription":"Simuler un DNS-poisoning.","skillDescription":null,"lienGitDescription":null,"idProjet":"3","idEquipe":"1"},
+{"idDescription":"4","dateDebDescription":"18\/12\/2022","dateFinDescription":"En cours","descDescription":"Mise en place d'un forum qui contient les fonctionnalité de s'inscrire et se connecter au forum, lire et pouvoir créer des postes quand on est connecté et en fonction de sont rang, pouvoir supprimé des postes et changer le rang des membres, toutes les données sont stocké dans une base de donnée. ","butDescription":"Approfondir ses connaissances des base de donnée et des requêtes, apprendre à mettre en place un système d'inscription sécurisé, et à mettre en place des cookies de session.","skillDescription":null,"lienGitDescription":null,"idProjet":"4","idEquipe":"3"},
+{"idDescription":"5","dateDebDescription":"08\/09\/2022","dateFinDescription":"02\/02\/2023","descDescription":"Une série d'exercice d'un total de 23 exercices, fait sur visual studio avec en modèle de projet wpf, dans la série d'exercice, il y a différents exercices avec divers algorithme pour apprendre à coder en C#, sur wpf, et apprendre à connaitre les composants et comment les utiliser, comme on peux le voir avec les exemples ci-dessus.","butDescription":"Se familialiser avec c#, visual studio, et wpf.","skillDescription":"c#, IDE visual studio, modèle wpf, xaml","lienGitDescription":null,"idProjet":"5","idEquipe":"1"},
+{"idDescription":"6","dateDebDescription":"19\/01\/2023","dateFinDescription":"06\/04\/2023","descDescription":"Projet fait en c# sur visual studio en temps qu'application wpf, qui est destiné à l'utilisation de journaliste ou personne dans ce domaine pour gérer ses contrats et  trucs dans le genre. Toutes les données proviennent d'une base de données et le projet est fait avec plusieurs classe.","butDescription":"Apprendre a connecté une base de données en c#, apprendre a faire des classe dans c#, apprendre à utiliser les classes avec une base de données ","skillDescription":null,"lienGitDescription":null,"idProjet":"6","idEquipe":"1"},
+{"idDescription":"7","dateDebDescription":"06\/04\/2023","dateFinDescription":"15\/05\/2023","descDescription":"Faire une application en c# sur visual studio en temps qu'application wpf, qui propose des formes et pour gagner des point il faut rentrer le bon périmètre et bonne surface de la figure.","butDescription":"Apprendre à utiliser les classes avec l'héritage, apprendre à faire une interface ergonomique","skillDescription":null,"lienGitDescription":null,"idProjet":"7","idEquipe":"1"}
+]
+}
+,{"type":"table","name":"descriptionimage","database":"id19558919_portfolio","data":
+[
+{"idDescription":"1","idImage":"1"},
+{"idDescription":"1","idImage":"2"},
+{"idDescription":"1","idImage":"3"},
+{"idDescription":"1","idImage":"4"},
+{"idDescription":"3","idImage":"5"},
+{"idDescription":"3","idImage":"6"},
+{"idDescription":"3","idImage":"7"},
+{"idDescription":"2","idImage":"10"},
+{"idDescription":"2","idImage":"11"},
+{"idDescription":"2","idImage":"12"},
+{"idDescription":"2","idImage":"13"},
+{"idDescription":"2","idImage":"14"},
+{"idDescription":"2","idImage":"15"},
+{"idDescription":"2","idImage":"16"},
+{"idDescription":"4","idImage":"17"},
+{"idDescription":"4","idImage":"18"},
+{"idDescription":"5","idImage":"19"},
+{"idDescription":"6","idImage":"23"},
+{"idDescription":"6","idImage":"24"},
+{"idDescription":"6","idImage":"25"},
+{"idDescription":"7","idImage":"20"},
+{"idDescription":"7","idImage":"21"},
+{"idDescription":"7","idImage":"22"}
+]
+}
+,{"type":"table","name":"equipe","database":"id19558919_portfolio","data":
+[
+{"idEquipe":"1","tailleEquipe":"Seul"},
+{"idEquipe":"2","tailleEquipe":"Deux"},
+{"idEquipe":"3","tailleEquipe":"Trois"}
+]
+}
+,{"type":"table","name":"image","database":"id19558919_portfolio","data":
+[
+{"idImage":"1","nomImage":"CONCEPTEURPortfolio"},
+{"idImage":"2","nomImage":"CONCEPTIONPortfolio"},
+{"idImage":"3","nomImage":"siteDeuxPortfolio"},
+{"idImage":"4","nomImage":"siteUnPortfolio"},
+{"idImage":"5","nomImage":"siteDeuxPoisoning"},
+{"idImage":"6","nomImage":"siteTroisPoisoning"},
+{"idImage":"7","nomImage":"siteUnPoisoning"},
+{"idImage":"8","nomImage":"maquetteDeuxForum"},
+{"idImage":"9","nomImage":"maquetteUnForum"},
+{"idImage":"10","nomImage":"BDD_ConcepteurFormation"},
+{"idImage":"11","nomImage":"maquetteFormation"},
+{"idImage":"12","nomImage":"siteCinqFormation"},
+{"idImage":"13","nomImage":"siteDeuxFormation"},
+{"idImage":"14","nomImage":"siteQuatreFormation"},
+{"idImage":"15","nomImage":"siteTroisFormation"},
+{"idImage":"16","nomImage":"siteUnFormation"},
+{"idImage":"17","nomImage":"maquetteUnForum"},
+{"idImage":"18","nomImage":"maquetteDeuxForum"},
+{"idImage":"19","nomImage":"exercice21"},
+{"idImage":"20","nomImage":"GeometrieUn"},
+{"idImage":"21","nomImage":"GeometrieDeux"},
+{"idImage":"22","nomImage":"GeometrieTrois"},
+{"idImage":"23","nomImage":"DigitalUn"},
+{"idImage":"24","nomImage":"DigitalDeux"},
+{"idImage":"25","nomImage":"DigitalTrois"}
+]
+}
+,{"type":"table","name":"projet","database":"id19558919_portfolio","data":
+[
+{"idProjet":"1","nomProjet":"Portfolio","descProjet":"Création de mon premier site qui est le portfolio, pour apprendre html et css avec un projet concret.","imgProjet":"portfolio","idType":"1"},
+{"idProjet":"2","nomProjet":"Formation","descProjet":"Création d'un site qui propose des formations, pour débuter dans la manipulations des bases de données avec php, sur l'interface phpMyAdmin.","imgProjet":"formation","idType":"1"},
+{"idProjet":"3","nomProjet":"DNS-poisoning","descProjet":"Site créé dans l'apprentissage de la cyber-sécurité et donc essayé de modifier un fichier texte qui sert de fichier DNS, simulation d'un DNS poisoning.","imgProjet":"poisoning","idType":"1"},
+{"idProjet":"4","nomProjet":"Forum","descProjet":"Création d'un forum qui propose les matières du BTS SIO, pour maîtriser à un plus haut niveau les bases de données à manipuler avec php, et approfondir php.","imgProjet":"forum","idType":"1"},
+{"idProjet":"5","nomProjet":"Exercice-wpf","descProjet":"Une série d'exercice fait sur visual studio avec en modèle de projet wpf, dans la série d'exercice, il y a différents exercices avec divers algorithme pour apprendre à coder en C#, sur wpf, et apprendre à connaitre les composants et comment les utiliser.","imgProjet":"exercice-wpf","idType":"3"},
+{"idProjet":"6","nomProjet":"Digital-Physhing","descProjet":"Un projet dans le but de pouvoir gérer les contrats, articles... ","imgProjet":"digital","idType":"1"},
+{"idProjet":"7","nomProjet":"Geometrie","descProjet":"Projet qui fait apparaitre des figures et il faut rentrer les bon périmètre et surface.","imgProjet":"geometrie","idType":"1"}
+]
+}
+,{"type":"table","name":"type","database":"id19558919_portfolio","data":
+[
+{"idType":"1","nomType":"Projet Ecole"},
+{"idType":"2","nomType":"Projet Personnelle"},
+{"idType":"3","nomType":"Exercices"}
+]
+}
+]

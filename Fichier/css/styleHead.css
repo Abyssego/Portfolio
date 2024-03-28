@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Life Savers:wght@400;700&display=swap');
+*{
+  font-family: Life Savers;
+}
+
+/* Début bar navigation */
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.head .nav {
+  float: left;
+}
+
+.head #reste {
+  float: right;
+}
+
+
+
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.head li a:hover:not(.nav) {
+  background-color: #111;
+}
+
+/* Fin bar navigation */
+
