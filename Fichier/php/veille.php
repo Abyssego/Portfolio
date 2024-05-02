@@ -15,9 +15,9 @@
 	<div class="bordure">
 	    <div>
         <?php 
-        $apiKey = "AIzaSyCvlqk_kom90AuZpYTMTpq6B9EE_zhpIeo";
+        $apiKey = "you can still try";
         
-        $channelId = "UC0yaN6lChea3u8DECeD8i4A"; // L'identifiant de la chaîne dont vous voulez récupérer les vidéos
+        $channelId = ""; // L'identifiant de la chaîne dont vous voulez récupérer les vidéos
         $maxResults = "12"; // Nombre maximal de vidéos à récupérer
         
     
